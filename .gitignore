@@ -6,6 +6,12 @@
 # Folders
 _obj
 _test
+bin
+pkg
+src/github.com
+src/golang.org
+gopkg.in
+sourcegraph.com
 
 # Architecture specific extensions/prefixes
 *.[568vq]
@@ -22,3 +28,6 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+src/debug
+src/config/dbconfig.json
